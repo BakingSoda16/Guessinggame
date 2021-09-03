@@ -3,8 +3,6 @@ Python script with added sound effect when you guess correct number between 1-10
 
 import random
 from playsound import playsound
-# function for randomly generated number, you can either do this or something else.
-# build a guessing game where the computer generates a number and you have to guess it.
 
 def guess(x):
     random_number = random.randint(1, x)
